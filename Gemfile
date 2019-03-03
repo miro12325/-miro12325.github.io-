@@ -1,1 +1,1 @@
-gem "jekyll-theme-slate", group: :jekyll_plugins
+gem "github-pages", group: :jekyll_plugins
