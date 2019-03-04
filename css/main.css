@@ -1,6 +1,9 @@
 
 body{
     background-image: url("/_img/bckg.jpeg");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
