@@ -2,12 +2,11 @@
 layout: default
 title: Záľuby
 ---
-<div>
-		<ul>
+<div class="row">
+		<h2>Moje záľuby</h2>
 				{% for hobbie in site.hobbies %}
-				  <li>
-					<a href="{{ hobbie.url }}">{{ hobbie.title }}</a>
-				  </li>
+				<div>
+				<a href="{{ hobbie.url }}"><h3>{{hobbie.title}}</h3></a>	
+				</div>
 				{% endfor %}
-			  </ul>
 </div>
