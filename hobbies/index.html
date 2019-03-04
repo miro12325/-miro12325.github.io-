@@ -1,7 +1,13 @@
 ---
-layout: hobbies
+layout: default
 title: Záľuby
 ---
 <div>
-	<h1>Vitajte na stránke Záľuby</h1>
+		<ul>
+				{% for hobbies in site.hobbies %}
+				  <li>
+					<a href="{{ hobbie.url }}">{{ hobbie.title }}</a>
+				  </li>
+				{% endfor %}
+			  </ul>
 </div>
