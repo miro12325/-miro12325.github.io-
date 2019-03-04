@@ -1,3 +1,8 @@
 name: Miroslav Borecky
 markdown: kramdown
 theme: jekyll-theme-slate
+collections:
+  hobbies:
+    output: true
+  projects:
+    output: true  
