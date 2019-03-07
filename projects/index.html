@@ -5,11 +5,22 @@ title: Projekty
 <div class="row">
 		<h2>Moje Projekty</h2>
 		
-		<div class="row">
 				<!--
 					<h4>{{tagy}}</h4>-->
 				{% for project in site.projects %}
+				{% if project.tags.first == "C++" %}
+				<div class="row">
+					<h4>C++</h4>
 						<a href="{{ project.url }}">{{project.title}}</a>	
+				</div>
+				{% endif %}	
 				{% endfor %}
-		</div>
+				{% for project in site.projects %}
+				{% if project.tags.first == "PHP" %}
+				<div class="row">
+					<h4>PHP</h4>
+						<a href="{{ project.url }}">{{project.title}}</a>
+				</div>
+				{% endif %}	
+				{% endfor %}
 </div>

@@ -5,8 +5,9 @@ title: Záľuby
 <div class="row">
 		<h2>Moje záľuby</h2>
 				{% for hobbie in site.hobbies %}
-				<div>
-				<a href="{{ hobbie.url }}"><h3>{{hobbie.title}}</h3></a>	
+				<div class="row">
+				<h4>{{hobbie.title}}</h4>
+				<a href="{{ hobbie.url }}">{{hobbie.title}}</a>	
 				</div>
 				{% endfor %}
 </div>

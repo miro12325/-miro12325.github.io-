@@ -1,4 +1,9 @@
 source 'https://rubygems.org'
 gem 'github-pages', group: :jekyll_plugins
-gem 'jekyll-theme-slate', '~> 0.1.1'
-gem 'jekyll-avatar', '~> 0.6.0'
+
+group :jekyll_plugins do
+    gem "jekyll-youtube"
+    gem "jekyll-avatar"
+    gem "jekyll-gist"
+    gem "jekyll-archives"
+  end

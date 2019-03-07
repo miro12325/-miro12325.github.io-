@@ -1,0 +1,13 @@
+---
+layout: default
+title: Webové Publikovanie
+---
+<div class="row">
+	<h3>Zadania</h3>
+	{% for zadanie in site.zadania %}
+	<div class="row">
+		<h4>{{zadanie.title}}</h4>
+		<a href="{{zadanie.url}}">{{zadanie.title}}</a>
+	</div>
+	{% endfor %}
+</div>
