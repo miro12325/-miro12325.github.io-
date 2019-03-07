@@ -1,5 +1,8 @@
 name: Miroslav Borecky
 markdown: kramdown
+plugins:
+  - jekyll-theme-slate
+  - jekyll-avatar
 theme: jekyll-theme-slate
 collections:
   hobbies:

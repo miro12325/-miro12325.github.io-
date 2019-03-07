@@ -2,6 +2,20 @@
 layout: default
 title: Projekty
 ---
-<div >
-	<p>Na tejto stránke sú moje projekty </p>
+<div class="row">
+		<h2>Moje Projekty</h2>
+		{% for project in site.projects %}
+			{% assign oznacenia= oznacenia | append: project.tags %}
+		{% endfor %}
+		{% oznacenie | split: ' ' | uniq | join: ' ' %}
+		{% for tagy in oznacenie %}
+		<div class="row">
+				<h4>{{tagy}}</h4>
+				{% for project in site.projects %}
+					{% if project.tags.first == tagy %}
+						<a href="{{ project.url }}">{{project.title}}</a>	
+					{% endif %}
+				{% endfor %}
+		</div>
+		{% endfor %}
 </div>

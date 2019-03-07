@@ -243,7 +243,8 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
-  jekyll-theme-slate
+  jekyll-avatar (~> 0.6.0)
+  jekyll-theme-slate (~> 0.1.1)
 
 BUNDLED WITH
    2.0.1
