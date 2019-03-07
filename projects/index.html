@@ -6,10 +6,14 @@ title: Projekty
 		<h2>Moje Projekty</h2>
 		
 		<div class="row">
-				<!--<h4>{{tagy}}</h4>-->
+				<!--{% assing tagys = "" %}
+					{% for project in site.projects %}
+						{% assing tags = tagys | concat: project.tags %}
+					{% endfor %}
+					{% assing tagys =  tagys | uniq %}
+					<h4>{{tagy}}</h4>-->
 				{% for project in site.projects %}
 						<a href="{{ project.url }}">{{project.title}}</a>	
 				{% endfor %}
 		</div>
-		{% endfor %}
 </div>
