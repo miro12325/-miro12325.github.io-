@@ -6,4 +6,6 @@ collections:
   projects:
     output: true
   zadania:
-    output: true     
+    output: true    
+plugins:
+- jekyll-avatar 
