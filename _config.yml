@@ -9,3 +9,4 @@ collections:
     output: true    
 plugins:
 - jekyll-avatar 
+- jekyll-youtube
