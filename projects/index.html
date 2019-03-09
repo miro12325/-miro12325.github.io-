@@ -3,15 +3,22 @@ layout: default
 title: Projekty
 ---
 <div>
+	{% assign tagy="" %}
+	{% for project in site.projects %}
+		{% assign tagy = tagy | append: project.tags.first %}
+		{% assign tagy = tagy | append: "," %}
+	{% endfor %}
+	{% assign tagy = tagy | split: "," | uniq | sort %}
 		<h2>Moje Projekty</h2>
 		<ul>
-				<!--
+			{% for tagg in tagy %}
+			<!--
 					<h4>{{tagy}}</h4>-->
 			<li>
-				<h4>C++</h4>
+				<h4>{{tagg}}</h4>
 				<ul>
 					{% for project in site.projects %}
-					{% if project.tags.first == "C++" %}
+					{% if project.tags.first == tagg %}
 					<li>	
 						<a href="{{ project.url }}">{{project.title}}</a>	
 					</li>
@@ -19,17 +26,6 @@ title: Projekty
 					{% endfor %}
 				</ul>
 			</li>
-			<li>
-					<h4>PHP</h4>
-					<ul>
-						{% for project in site.projects %}
-						{% if project.tags.first == "PHP" %}
-						<li>	
-								<a href="{{ project.url }}">{{project.title}}</a>	
-						</li>
-						{% endif %}	
-						{% endfor %}
-					</ul>
-				</li>
+			{% endfor %}
 		</ul>
 </div>
