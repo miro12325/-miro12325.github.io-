@@ -2,11 +2,17 @@
 layout: default
 title: {page.title}
 ---
-<div>
+<div class="row">
     {{content}}
 </div>
-<div >
-    <img src="{{page.photo}}" height="700" width="900">
+<div class="row">
+    <img src="{{page.photo}}" height="450" width="450">
 </div>
+<div class="row">
+        {% if page.video %}
+        <h5>Video:</h5>
+        {% youtube  page.video %}
+        {% endif %}
+    </div>
 
 

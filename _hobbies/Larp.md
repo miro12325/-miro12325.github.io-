@@ -2,6 +2,7 @@
 layout: hobbie
 title: LARP
 photo: https://scontent.fbts2-1.fna.fbcdn.net/v/t1.0-9/37811392_1828544057210974_3431933831647592448_o.jpg?_nc_cat=103&_nc_ht=scontent.fbts2-1.fna&oh=dc7af5ffbe41bf6018dfb1573b6d6d98&oe=5D1F2DA3
+video: https://www.youtube.com/watch?v=sWeMv6hQpSE&t=53s
 ---
 ## **LARP- Live Action Role Play**
 
