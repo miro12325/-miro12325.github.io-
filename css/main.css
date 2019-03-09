@@ -7,3 +7,17 @@ footer{
 .avatar{
   float: left;
 }
+body{
+  background-image: url(/images/Background/922275.png)
+  
+}
+div {
+  text-decoration-color: white
+}
+a{
+  color: white
+}
+.container{
+  background-color: #212121;
+  color: white
+}

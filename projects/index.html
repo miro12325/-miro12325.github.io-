@@ -2,25 +2,34 @@
 layout: default
 title: Projekty
 ---
-<div class="row">
+<div>
 		<h2>Moje Projekty</h2>
-		
+		<ul>
 				<!--
 					<h4>{{tagy}}</h4>-->
-				{% for project in site.projects %}
-				{% if project.tags.first == "C++" %}
-				<div class="row">
-					<h4>C++</h4>
+			<li>
+				<h4>C++</h4>
+				<ul>
+					{% for project in site.projects %}
+					{% if project.tags.first == "C++" %}
+					<li>	
 						<a href="{{ project.url }}">{{project.title}}</a>	
-				</div>
-				{% endif %}	
-				{% endfor %}
-				{% for project in site.projects %}
-				{% if project.tags.first == "PHP" %}
-				<div class="row">
+					</li>
+					{% endif %}	
+					{% endfor %}
+				</ul>
+			</li>
+			<li>
 					<h4>PHP</h4>
-						<a href="{{ project.url }}">{{project.title}}</a>
-				</div>
-				{% endif %}	
-				{% endfor %}
+					<ul>
+						{% for project in site.projects %}
+						{% if project.tags.first == "PHP" %}
+						<li>	
+								<a href="{{ project.url }}">{{project.title}}</a>	
+						</li>
+						{% endif %}	
+						{% endfor %}
+					</ul>
+				</li>
+		</ul>
 </div>
