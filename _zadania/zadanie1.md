@@ -22,3 +22,5 @@ nazov: Osobná webová prezentácia na GitHub pages
   * Hobbies obsahuje rozloženie obsahu stránok pre záľuby šablona obsahuje tieto pracuje s týmto premennými page.title, page.photo, page.video. Ďalej v šablone bol využitý tag youtube ktorý je zároveň aj pluginom na zobrazenie videa z youtubu.  
   * Projects obsahuje rozloženie obsahu stránok pre projekty šablona využíva premenné page.title, page.fotky, page.typ, page.predmet, page.datum, page.firma, page.tags, page.link, tagy, path ďalej využíva filter join a include image-gallery.html.  
   * Zadania obsahuje rozloženie obsahu stránok pre zadania ktorá vaužíva premenné page.title, page.nazov, page.fakulta,page.cviciaci, page.cvicenie, page.autor, page.datum.  
+
+  Pri tvorbe týchto stránok som využil [Bootstrap](https://getbootstrap.com). Fotky a videá ktoré boli použité sú vo forme linkov(obrázky a videá pri záľubách), moje vlastné(obrákzy pri projektoch) alebo stiahnuté s tejto stránky [https://getbootstrap.com](https://getbootstrap.com) (obrázok pozadia stránky).
