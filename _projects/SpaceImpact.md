@@ -2,7 +2,7 @@
 layout: projects
 title: SpaceImpact
 link: https://github.com/miro12325/SpaceImpact
-tags: [C++]
+tags: [C++,OpenGL]
 fotky: SpaceImpact
 datum: Zimný semester 2018/2019
 typ: Školský projekt

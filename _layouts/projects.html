@@ -14,6 +14,8 @@ title: {page.title}
             {% if page.firma %}
             <li>Predmer: {{page.firma}}</li>
             {% endif %}
+            {% assign tagy = page.tags | join: "," %}
+            <li>Použité jazyky framworky: {{ tagy }}</li>
          </ul> 
             {{content}}
         <h5>Ukážky z projektu</h5>

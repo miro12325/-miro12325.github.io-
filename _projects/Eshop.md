@@ -2,7 +2,7 @@
 layout: projects
 title: Eshop
 link: https://github.com/miro12325/E-Shop
-tags: [PHP]
+tags: [PHP,Laravel,Quasar]
 fotky: Eshop
 datum: Zimný semester 2018/2019
 typ: Školský projekt
