@@ -23,4 +23,4 @@ nazov: Osobná webová prezentácia na GitHub pages
   * Projects obsahuje rozloženie obsahu stránok pre projekty šablona využíva premenné page.title, page.fotky, page.typ, page.predmet, page.datum, page.firma, page.tags, page.link, tagy, path ďalej využíva filter join a include image-gallery.html.  
   * Zadania obsahuje rozloženie obsahu stránok pre zadania ktorá vaužíva premenné page.title, page.nazov, page.fakulta,page.cviciaci, page.cvicenie, page.autor, page.datum.  
 
-  Pri tvorbe týchto stránok som využil [Bootstrap](https://getbootstrap.com). Fotky a videá ktoré boli použité sú vo forme linkov(obrázky a videá pri záľubách), moje vlastné(obrákzy pri projektoch) alebo stiahnuté s tejto stránky [https://getbootstrap.com](https://getbootstrap.com) (obrázok pozadia stránky).
+  Pri tvorbe týchto stránok som využil [Bootstrap](https://getbootstrap.com) a tieto pluginy jekyll-youtube,jekyll-avatar a jemoji. Fotky a videá ktoré boli použité sú vo forme linkov(obrázky a videá pri záľubách), moje vlastné(obrákzy pri projektoch) alebo stiahnuté s tejto stránky [https://wall.alphacoders.com](https://wall.alphacoders.com) (obrázok pozadia stránky).
