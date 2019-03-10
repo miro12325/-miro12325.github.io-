@@ -1,4 +1,5 @@
 footer{
+  padding: 1em;
   margin-top: 4em;
   position: relative;
   left: 0;
@@ -6,6 +7,7 @@ footer{
   width: 100%;}
 .avatar{
   float: left;
+  padding: 0.3em;
 }
 body{
   background-image: url(/images/Background/922275.png)
@@ -18,6 +20,7 @@ a{
   color: white
 }
 .container{
+  padding: 1em;
   background-color: #212121;
   color: white
 }
