@@ -4,7 +4,17 @@ title: {page.title}
 ---
 {% assign path="/images/" | append: page.fotky %}
 <div>
-         <h3>{{page.title}}</h3>   
+         <h3>{{page.title}}</h3>  
+         <ul>
+            <li>Druh projektu: {{page.typ}}</li>
+            <li>Čas tvorby projektu: {{page.datum}}</li>
+            {% if page.predmet %}
+            <li>Predmer: {{page.predmet}}</li>
+            {% endif %}
+            {% if page.firma %}
+            <li>Predmer: {{page.firma}}</li>
+            {% endif %}
+         </ul> 
             {{content}}
         <h5>Ukážky z projektu</h5>
         {% include image-gallery.html folder=path %}
