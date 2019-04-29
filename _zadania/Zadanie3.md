@@ -5,7 +5,7 @@ cvicenie: Štvrtok 17:40
 cviciaci: doc. Ing. Marián Šimko, PhD.
 autor: Miroslav Borecký
 fakulta: Fakulta Informatiky a Informačných technológií
-datum: "27.03.2019"
+datum: "29.04.2019"
 nazov: XML prezentácia
 ---
 ## Opis typu dokumentu
