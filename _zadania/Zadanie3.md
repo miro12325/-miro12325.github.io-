@@ -1,6 +1,6 @@
 ---
 layout: zadania
-title: Zadanie 2.
+title: Zadanie 3.
 cvicenie: Štvrtok 17:40
 cviciaci: doc. Ing. Marián Šimko, PhD.
 autor: Miroslav Borecký
